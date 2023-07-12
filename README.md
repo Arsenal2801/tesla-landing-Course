@@ -1,54 +1,42 @@
-# Astro Starter Kit: Basics
+# Clon de la Landing de Tesla
 
-```
-npm create astro@latest -- --template basics
-```
+Este proyecto es un clon de la landing page (página de inicio) de Tesla, creado con el propósito de aprender a utilizar Astro y Tailwind CSS. Es importante destacar que este clon no tiene fines de lucro y solo se realiza con fines educativos y de aprendizaje.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Acerca de Astro
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+[Astro](https://astro.build/) es una herramienta de construcción de sitios web de próxima generación. Combina el poder de los componentes estáticos y la representación del lado del servidor (SSR) para ofrecer un rendimiento excepcional y una experiencia de desarrollo más eficiente. Astro permite la construcción de sitios web rápidos y accesibles sin sacrificar la facilidad de desarrollo.
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+## Acerca de Tailwind CSS
 
-## 🚀 Project Structure
+[Tailwind CSS](https://tailwindcss.com/) es un framework de CSS de utilidad altamente personalizable. En lugar de proporcionar componentes predefinidos, Tailwind CSS se centra en proporcionar clases de utilidad que pueden combinarse para crear cualquier diseño o estilo visual deseado. Esto permite una gran flexibilidad y una mayor eficiencia en el desarrollo de interfaces de usuario.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Objetivos del Proyecto
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Los objetivos principales de este proyecto son los siguientes:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+1. Familiarizarse con el uso de Astro como herramienta de construcción de sitios web.
+2. Aprender a utilizar Tailwind CSS para diseñar y estilizar componentes.
+3. Practicar la estructuración y organización de componentes reutilizables.
+4. Implementar las funcionalidades y animaciones presentes en la landing page de Tesla.
+5. Mejorar las habilidades de desarrollo frontend en general.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Contribuciones
 
-Any static assets, like images, can be placed in the `public/` directory.
+¡Las contribuciones son bienvenidas! Si deseas colaborar en este proyecto, siéntete libre de clonar el repositorio, crear una rama nueva para tus cambios y enviar un pull request. Asegúrate de seguir las mejores prácticas de desarrollo y las pautas de estilo establecidas.
 
-## 🧞 Commands
+## Recursos
 
-All commands are run from the root of the project, from a terminal:
+Aquí hay algunos recursos útiles que puedes consultar para obtener más información sobre Astro y Tailwind CSS:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- Documentación oficial de Astro: [https://docs.astro.build/](https://docs.astro.build/)
+- Documentación oficial de Tailwind CSS: [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
+- Repositorio oficial de Astro en GitHub: [https://github.com/snowpackjs/astro](https://github.com/snowpackjs/astro)
+- Repositorio oficial de Tailwind CSS en GitHub: [https://github.com/tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)
 
-## 👀 Want to learn more?
+## Agradecimientos
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Este proyecto no sería posible sin la existencia y disponibilidad de Astro y Tailwind CSS. Agradecemos a los equipos de desarrollo de ambas herramientas por su arduo trabajo y dedicación.
+
+## Licencia
+
+Este proyecto se encuentra bajo la licencia [MIT](LICENSE).
